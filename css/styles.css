@@ -4,3 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FBBA72;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 30px;
+    color: #691E06;
+}
+
+.logo {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+}
