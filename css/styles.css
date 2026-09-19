@@ -51,3 +51,12 @@ header nav ul {
 h1 {
     font-weight: 300;
 }
+
+a {
+    color: #691E06;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BB4D00;
+}
