@@ -24,8 +24,8 @@ header nav ul {
 }
 
 .logo {
-    width: auto;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 30px;
 }
