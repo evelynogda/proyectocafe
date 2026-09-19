@@ -33,3 +33,20 @@ header nav ul {
     object-fit: cover;
     border-radius: 30px;
 }
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("../images/banner/imagenbanner.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items:first baseline;
+    justify-content:center;
+    color:antiquewhite;
+    font-size: 25px;
+}
+
+h1 {
+    font-weight: 300;
+}
