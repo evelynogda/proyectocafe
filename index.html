@@ -1,51 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Manrope:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Manrope:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
-        <div class="menu">
+      <div class="menu">
         <div class="contenedorlogo">
-            <a href="#">
-                <img class="logo" src="images/banner/logooscurorectangular.png" alt="logo">
-            </a>
+          <a href="#">
+            <img
+              class="logo"
+              src="images/banner/logooscurorectangular.png"
+              alt="logo"
+            />
+          </a>
         </div>
-
 
         <nav>
-            <ul>
-                <a href="#"><li>Inicio</li></a>
-                <a href="#"><li>Contacto</li></a>
-                <a href="#"><li>Carrito</li></a>
-            </ul>
+          <ul>
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Contacto</li></a>
+            <a href="#"><li>Carrito</li></a>
+          </ul>
         </nav>
-        </div>
+      </div>
     </header>
 
     <main>
-        <section class="banner">
-            <div class="contenido">
-               <h2>Bienvenido a </h2> <h1><strong>Caramelo</strong>, todo en cafetería</h1>
-            </div>
-        </section>
+      <section class="banner">
+        <div class="contenido">
+          <h2>Bienvenido a</h2>
+          <h1><strong>Caramelo</strong>, todo en cafetería</h1>
+        </div>
+      </section>
 
-        <section>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MYPVQccHhAQ?si=YzDuTxDTx5qyctwR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </section>
+      <section>
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MYPVQccHhAQ?si=YzDuTxDTx5qyctwR"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
 
     <footer>
-        
+      <section class="newsletter">
+        <h2>¡Suscríbete a nuestro newsletter!</h2>
+        <form action="contacto" method="post">
+          <input type="email" name="newsletter" id="newsletter" />
+          <button type="submit">suscribirme</button>
+        </form>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

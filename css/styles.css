@@ -77,3 +77,14 @@ a:hover{
     margin-bottom: 25px;
 
 }
+
+footer {
+    background-color:#691E06;
+    min-height: 50vh;
+    color: antiquewhite;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+}
+
