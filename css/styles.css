@@ -5,19 +5,15 @@
 }
 
 body {
-    background-color: #FBBA72;
+    background-color: white;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    
+    background-color: #FBBA72;
 }
 
 header nav ul {
@@ -27,6 +23,13 @@ header nav ul {
     font-size: 25px;
     color: #691E06;
     font-weight: 400;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 50px;
 }
 
 .logo {
@@ -48,8 +51,12 @@ header nav ul {
     font-size: 20px;
 }
 
-h1 {
+h1,h2 {
     font-weight: 400;
+}
+
+.banner .contenido {
+    font-size: 2rem;
 }
 
 a {
