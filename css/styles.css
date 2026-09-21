@@ -109,6 +109,12 @@ footer {
     background-color: #FBBA72;
     color: #691E06;
     font-weight: bold;
+    font-size: 15px;
+}
+
+.boton-newsletter:hover {
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 footer .newsletter {
@@ -125,6 +131,9 @@ footer section {
     list-style: none;
     margin-top: 20px;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .footer-link a {
@@ -134,4 +143,7 @@ footer section {
 .medios-de-pago {
     height: 40px;
     color: antiquewhite;
+    margin-inline: 3px;
+    margin-top: 15px;
 }
+
