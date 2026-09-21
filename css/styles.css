@@ -95,7 +95,7 @@ footer {
 
 .email-newsletter {
     min-height: 30px;
-    min-width: 61%;
+    min-width: 50%;
     border: 3px #FBBA72 solid;
     border-radius: 5px;
     margin-top: 15px;
@@ -103,10 +103,12 @@ footer {
 
 .boton-newsletter {
     min-height: 30px;
-    min-width: 29%;
+    min-width: 19%;
     border: 3px #FBBA72 solid;
     border-radius: 5px;
     background-color: #FBBA72;
+    color: #691E06;
+    font-weight: bold;
 }
 
 footer .newsletter {
@@ -116,4 +118,20 @@ footer .newsletter {
 
 footer section {
     width: 33%;
+}
+
+.footer-link {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer-link a {
+    color: antiquewhite;
+}
+
+.medios-de-pago {
+    height: 40px;
+    color: antiquewhite;
 }
