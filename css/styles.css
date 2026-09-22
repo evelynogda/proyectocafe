@@ -244,12 +244,13 @@ footer section {
     text-align: center;
     margin-bottom: 30px;
     color: #691E06;
+    margin-top: 5%;
 }
 
 .formulario-contenedor {
     background-color: antiquewhite;
     padding: 40px;
-    min-height: 50vh;
+    min-height: 60vh;
 }
 
 .formulario {
