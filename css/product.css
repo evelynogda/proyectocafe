@@ -1,0 +1,32 @@
+.product-content {
+    display:flex;
+    justify-content: center;
+    width: 1200px;
+    margin-inline: auto;
+    min-height: 60vh;
+}
+.product-gallery{
+    display: flex;
+    padding: 40px;
+
+    .product-image{
+        max-width: 800px;
+        
+    }
+}
+.product-info{
+    display: grid;
+    max-width: 600px;
+    padding: 40px 20px 20px 0px;
+}
+.add-cart button{
+    min-height: 40px;
+    width: 350px;
+    border: 3px #FBBA72 solid;
+    border-radius: 5px;
+    background-color: #FBBA72;
+    color: #691E06;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
