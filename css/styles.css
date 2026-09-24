@@ -30,6 +30,7 @@ header .menu {
     align-items: center;
     justify-content:space-between;
     padding: 20px 50px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -88,6 +89,7 @@ a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-producto {
