@@ -122,6 +122,7 @@ a:hover{
     align-self: flex-end;
     margin-top: auto;
     color: #691E06;
+    z-index: 999;
 }
 
 .boton-carrito:hover {
