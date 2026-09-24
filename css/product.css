@@ -9,11 +9,13 @@
     display: flex;
     padding: 40px;
 
-    .product-image{
-        max-width: 800px;
-        
-    }
 }
+
+.product-image{
+        max-width: 600px;    
+        max-height: 400px;
+    }
+
 .product-info{
     display: grid;
     max-width: 600px;
